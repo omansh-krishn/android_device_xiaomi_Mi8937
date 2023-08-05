@@ -18,7 +18,7 @@ $(foreach p, $(call to-upper, $(ALL_PARTITIONS)), \
 
 # Inherit from common mithorium-common
 include device/xiaomi/mithorium-common/BoardConfigCommon.mk
-
+TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8937
 DEVICE_PATH := device/xiaomi/Mi8937
 USES_DEVICE_XIAOMI_MI8937 := true
 
