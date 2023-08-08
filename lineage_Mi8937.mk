@@ -17,9 +17,9 @@ $(call inherit-product, device/xiaomi/Mi8937/device.mk)
 
 
 # RISINGOS FLAGS
-RISING_CHIPSET := "MSM 8937"
-RISING_MAINTAINER := "Omansh Krishn"
-RISING_PACKAGE_TYPE := "AOSP-OmanshKrishn"
+RISING_CHIPSET := MSM8937
+RISING_MAINTAINER := Omansh Krishn
+RISING_PACKAGE_TYPE := AOSP-OmanshKrishn
 TARGET_BUILD_APERTURE_CAMERA := true
 TARGET_ENABLE_BLUR := true
 
